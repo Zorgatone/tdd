@@ -1,6 +1,9 @@
 {
   "spec_dir": "spec",
   "spec_files": [
+    "src/ToDoList.js",
+    "src/App.js",
+    "src/index.js",
     "**/*[sS]pec.js"
   ],
   "helpers": [

@@ -12,6 +12,7 @@ module.exports = function(config) {
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
+
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
@@ -19,14 +20,17 @@ module.exports = function(config) {
       require('karma-jasmine-html-reporter')
     ],
 
+
     client:{
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
 
+
     // list of files / patterns to load in the browser
     files: [
-      'src/**/*.js',
-      'index.js',
+      'src/ToDoList.js',
+      'src/App.js',
+      'src/index.js',
       'spec/**/*.spec.js'
     ],
 
